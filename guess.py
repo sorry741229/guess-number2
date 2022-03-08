@@ -7,6 +7,7 @@ while True:
 	num = int(num)
 	if num == r :
 		print('恭喜你猜對了!')
+		print('這是你猜的第', count, '次')
 		break
 	else:
 		if r > num :
